@@ -1,4 +1,4 @@
-# Manulife Take-Home — LTC Actuarial & Finance Analytics
+# LTC Actuarial & Finance Analytics
 
 A two-part solution for the Long-Term Care portfolio.
 
@@ -8,7 +8,6 @@ A two-part solution for the Long-Term Care portfolio.
   statements and macro data, retrieves governed documents with RAG, and auto-generates a
   branded **Valuation & Solvency Report** — with guardrails that guarantee every number traces to source.
 
-> Note: the methodology PDFs and the presentation deck are shared separately by email and are not in this repo.
 
 ## Part 1 — quickstart
 ```bash
