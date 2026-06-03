@@ -1,0 +1,6 @@
+metric,value,unit
+portfolio_policy_count,50000.0,count
+portfolio_claim_frequency,0.1394,ratio
+portfolio_mean_expected_loss_usd,40279.91,USD
+portfolio_mean_severity_usd,288869.12,USD
+portfolio_total_expected_claims_usd,2013995508.63,USD

@@ -1,0 +1,14 @@
+# Part 2 GenAI report tool (full POC). Python 3.10+ recommended.
+numpy>=1.23
+scikit-learn>=1.3          # TF-IDF fallback embedder + utilities
+rank-bm25>=0.2.2           # keyword side of hybrid retrieval
+sentence-transformers>=2.2 # local embeddings + cross-encoder reranker (pulls in torch)
+openai>=1.30               # LLM (and optional OpenAI embeddings). Set OPENAI_API_KEY
+python-dotenv>=1.0         # loads your key from .env
+pdfplumber>=0.11           # parse PDF documents (text + tables) for the RAG corpus
+python-docx>=1.1           # parse Word docs for the corpus AND render the output report
+pytest>=7.0                # offline test suite (tfidf + MockLLM; no key/torch needed)
+# Optional:
+# docx2pdf>=0.1.8          # DOCX->PDF on Windows/Mac with MS Word installed
+# fpdf2>=2.7               # only needed to regenerate the sample PDF corpus
+# anthropic>=0.39          # only for LLM_BACKEND=anthropic

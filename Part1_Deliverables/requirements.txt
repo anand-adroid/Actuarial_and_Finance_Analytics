@@ -1,0 +1,17 @@
+# Part 1 - LTC Expected Loss model.  Recommended: Python 3.11.
+# Version floors (>=) so pip installs the newest compatible wheels (no C++ compiler needed).
+pandas>=2.0
+numpy>=1.23
+scikit-learn>=1.3
+lightgbm>=4.0
+statsmodels>=0.14
+scipy>=1.10
+matplotlib>=3.7
+seaborn>=0.12
+optuna>=3.4
+# Notebook tooling (so VS Code / Jupyter can see and select the kernel)
+ipykernel>=6.0
+notebook>=7.0
+jupyterlab>=4.0
+
+# Optional: xgboost>=2.0   # alternative gradient-boosting challenger (notebook runs without it)

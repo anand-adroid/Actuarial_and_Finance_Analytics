@@ -1,0 +1,9 @@
+metric,value,unit
+gross_written_premium_usd,2953860079.32,USD
+policy_reserves_usd,2013995508.63,USD
+available_capital_usd,2718893936.65,USD
+required_capital_usd,2013995508.63,USD
+licat_ratio_pct,135.0,percent
+supervisory_target_pct,100,percent
+valuation_period,2026-Q1,label
+reporting_currency,USD,label
